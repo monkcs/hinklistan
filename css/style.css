@@ -14,13 +14,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "always-together";
+    font-family: dosis;
 }
 header {
     background-color: #33C3F0;
     color: black;
+    font-weight: normal;
+    padding: 1rem 0 0.7rem 0;
 }
-
 #header-text {
     margin-left: 1.3rem;
+    margin-bottom: 0;
 }
