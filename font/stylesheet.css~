@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'lilly';
-    src: url('lilly.woff') format('woff'),
-         url('lilly.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
