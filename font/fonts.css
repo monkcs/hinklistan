@@ -7,7 +7,49 @@
 }
 @font-face {
     font-family: 'always-together';
-    src: url('always-together-webfont.woff2') format('woff2'), url('always-together-webfont.ttf') format('truetype');
+    src: url('always-togethery.woff2') format('woff2'), url('always-together.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-bold.woff2') format('woff2'), url('dosis-bold.woff') format('woff'), url('dosis-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-extrabold.woff2') format('woff2'), url('dosis-extrabold.woff') format('woff'), url('dosis-extrabold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-extralight.woff2') format('woff2'), url('dosis-extralight.woff') format('woff'), url('dosis-extralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-light.woff2') format('woff2'), url('dosis-light.woff') format('woff'), url('dosis-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-medium.woff2') format('woff2'), url('dosis-medium.woff') format('woff'), url('dosis-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-regular.woff2') format('woff2'), url('dosis-regular.woff') format('woff'), url('dosis-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-semibold.woff2') format('woff2'), url('dosis-semibold.woff') format('woff'), url('dosis-semibold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
