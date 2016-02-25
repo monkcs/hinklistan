@@ -1,10 +1,13 @@
 @charset "UTF-8";
-
 @font-face {
     font-family: 'lilly';
-    src: url('lilly.woff') format('woff'),
-         url('lilly.ttf') format('truetype');
+    src: url('lilly.woff') format('woff'), url('lilly.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'always-together';
+    src: url('always-together-webfont.woff2') format('woff2'), url('always-together-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
