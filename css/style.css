@@ -16,6 +16,9 @@ h5,
 h6 {
     font-family: dosis;
 }
+tr > th {
+    font-family: dosis;
+}
 header {
     background-color: #33C3F0;
     color: black;
@@ -36,42 +39,19 @@ input[type="radio"] + label {
 
 /* Hinklist */
 
-input[type="checkbox"] {
-    /*display: none;*/
+ input[type="checkbox"] {
+    display: none;/**/
 }
-input[type="checkbox"] + label[class="checkbox-circle"] > div,
-input[type="checkbox"] + label[class="checkbox-circle"] > div > div {
-    border-radius: 50%;
+input[type="checkbox"] + label {
+    border-radius: 23%;
     height: 0;
     /* Square code */
     padding-bottom: 2.4rem;
     width: 2.4rem;
-}
-input[type="checkbox"] + label[class="checkbox-circle"] > div > div {
-    /* Center code */
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-input[type="checkbox"] + label[class="checkbox-circle"] > div > div {
-    top: 0.1rem;
-    /* Square code */
-    padding-bottom: 2.2rem;
-    width: 2.2rem;
-    background-color: white;
-}
-input[type="checkbox"] + label[class="checkbox-circle"] > div > div {
-    top: 0.1rem;
-    /* Square code */
-    padding-bottom: 1.5rem;
-    width: 1.5rem;
     background-color: #E1E1E1;
-    display: block;
 }
-input[type="checkbox"] + label[class="checkbox-circle"] > div {
-    background-color: white;
-    border: 1px solid #E1E1E1;
-}
-input[type="checkbox"]:checked + label[class="checkbox-circle"] > div > div > div {
-    display: block;
+input[type="checkbox"]:checked + label:before {
+    font-size: 3rem;
+    line-height: 90%;
+    content: "✓";
 }
