@@ -48,7 +48,8 @@ input[type="checkbox"] + label {
     /* Square code */
     padding-bottom: 2.4rem;
     width: 2.4rem;
-    background-color: #E1E1E1;
+    /* border-color: #E1E1E1; */
+    border: 1px solid gray;
 }
 input[type="checkbox"]:checked + label:before {
     font-size: 3rem;
